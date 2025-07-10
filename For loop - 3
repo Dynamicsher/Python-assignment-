@@ -1,0 +1,9 @@
+list1 = [1, 2, 3, 4, 5, 7, 8, 9]
+list2 = [4, 5, 3, 6, 7, 8]
+common = []
+
+for union in list1:
+    if union in list2:
+        common.append(union)
+
+print(common)
