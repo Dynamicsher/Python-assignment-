@@ -1,0 +1,10 @@
+string = "This course is good"
+underscore = ""
+
+for i in string:
+    if i == " ":
+        underscore += "_"
+    else:
+        underscore += i
+
+print(underscore)
