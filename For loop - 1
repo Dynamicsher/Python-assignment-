@@ -1,0 +1,7 @@
+divisible_num = []
+
+for num in range(1, 101):
+    if num % 3 == 0 and num % 5 == 0:
+        divisible_num.append(num)
+      
+print("Numbers divisible by 3 and 5 are:", divisible_num)
