@@ -1,0 +1,10 @@
+try:
+    file = open("example.txt", "r")  
+    content = file.read()
+    print("File Content:\n", content)
+except FileNotFoundError:
+    print("Error: The file was not found.")
+finally:
+    try:
+        file.close() 
+        print("File closed successfully")
