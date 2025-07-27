@@ -1,0 +1,6 @@
+data = {'name': 'Sara', 'age': 22}
+
+try:
+    print("City:", data['city'])
+except KeyError:
+    print('city' key not found in dictionary.")
