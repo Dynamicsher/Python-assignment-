@@ -1,0 +1,13 @@
+for i in range(5):
+    mark = int(input(f"Enter marks for subject {i+1}: "))
+    marks.append(mark)
+
+passed = all(mark > 33 for mark in marks)
+
+average = sum(marks) / 5
+
+if passed:
+    print("The student has passed.")
+else:
+    print("The student has failed.")
+print(f"Average Percentage: {average:.2f}%")
